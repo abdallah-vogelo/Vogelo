@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0D5D2541A98DBEA0004ABFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5D2531A98DBEA0004ABFE /* AppDelegate.swift */; };
+		A0D5D2571A98DBEA0004ABFE /* Vogelo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0D5D2551A98DBEA0004ABFE /* Vogelo.xcdatamodeld */; };
+		A0D5D2591A98DBEA0004ABFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5D2581A98DBEA0004ABFE /* ViewController.swift */; };
+		A0D5D25C1A98DBEA0004ABFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D5D25A1A98DBEA0004ABFE /* Main.storyboard */; };
+		A0D5D25E1A98DBEA0004ABFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D5D25D1A98DBEA0004ABFE /* Images.xcassets */; };
+		A0D5D2611A98DBEA0004ABFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D5D25F1A98DBEA0004ABFE /* LaunchScreen.xib */; };
+		A0D5D26D1A98DBEA0004ABFE /* VogeloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D5D26C1A98DBEA0004ABFE /* VogeloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D5D2671A98DBEA0004ABFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D5D2461A98DBEA0004ABFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D5D24D1A98DBEA0004ABFE;
+			remoteInfo = Vogelo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0D5D24E1A98DBEA0004ABFE /* Vogelo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vogelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D5D2521A98DBEA0004ABFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D5D2531A98DBEA0004ABFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0D5D2561A98DBEA0004ABFE /* Vogelo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Vogelo.xcdatamodel; sourceTree = "<group>"; };
+		A0D5D2581A98DBEA0004ABFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0D5D25B1A98DBEA0004ABFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D5D25D1A98DBEA0004ABFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0D5D2601A98DBEA0004ABFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A0D5D2661A98DBEA0004ABFE /* VogeloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VogeloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D5D26B1A98DBEA0004ABFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D5D26C1A98DBEA0004ABFE /* VogeloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VogeloTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D5D24B1A98DBEA0004ABFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D5D2631A98DBEA0004ABFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0D5D2451A98DBEA0004ABFE = {
+			isa = PBXGroup;
+			children = (
+				A0D5D2501A98DBEA0004ABFE /* Vogelo */,
+				A0D5D2691A98DBEA0004ABFE /* VogeloTests */,
+				A0D5D24F1A98DBEA0004ABFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D5D24F1A98DBEA0004ABFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5D24E1A98DBEA0004ABFE /* Vogelo.app */,
+				A0D5D2661A98DBEA0004ABFE /* VogeloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0D5D2501A98DBEA0004ABFE /* Vogelo */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5D2531A98DBEA0004ABFE /* AppDelegate.swift */,
+				A0D5D2581A98DBEA0004ABFE /* ViewController.swift */,
+				A0D5D25A1A98DBEA0004ABFE /* Main.storyboard */,
+				A0D5D25D1A98DBEA0004ABFE /* Images.xcassets */,
+				A0D5D25F1A98DBEA0004ABFE /* LaunchScreen.xib */,
+				A0D5D2551A98DBEA0004ABFE /* Vogelo.xcdatamodeld */,
+				A0D5D2511A98DBEA0004ABFE /* Supporting Files */,
+			);
+			path = Vogelo;
+			sourceTree = "<group>";
+		};
+		A0D5D2511A98DBEA0004ABFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5D2521A98DBEA0004ABFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0D5D2691A98DBEA0004ABFE /* VogeloTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5D26C1A98DBEA0004ABFE /* VogeloTests.swift */,
+				A0D5D26A1A98DBEA0004ABFE /* Supporting Files */,
+			);
+			path = VogeloTests;
+			sourceTree = "<group>";
+		};
+		A0D5D26A1A98DBEA0004ABFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D5D26B1A98DBEA0004ABFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0D5D24D1A98DBEA0004ABFE /* Vogelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D5D2701A98DBEA0004ABFE /* Build configuration list for PBXNativeTarget "Vogelo" */;
+			buildPhases = (
+				A0D5D24A1A98DBEA0004ABFE /* Sources */,
+				A0D5D24B1A98DBEA0004ABFE /* Frameworks */,
+				A0D5D24C1A98DBEA0004ABFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vogelo;
+			productName = Vogelo;
+			productReference = A0D5D24E1A98DBEA0004ABFE /* Vogelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0D5D2651A98DBEA0004ABFE /* VogeloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D5D2731A98DBEA0004ABFE /* Build configuration list for PBXNativeTarget "VogeloTests" */;
+			buildPhases = (
+				A0D5D2621A98DBEA0004ABFE /* Sources */,
+				A0D5D2631A98DBEA0004ABFE /* Frameworks */,
+				A0D5D2641A98DBEA0004ABFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D5D2681A98DBEA0004ABFE /* PBXTargetDependency */,
+			);
+			name = VogeloTests;
+			productName = VogeloTests;
+			productReference = A0D5D2661A98DBEA0004ABFE /* VogeloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D5D2461A98DBEA0004ABFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Abdallah Ammar";
+				TargetAttributes = {
+					A0D5D24D1A98DBEA0004ABFE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A0D5D2651A98DBEA0004ABFE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A0D5D24D1A98DBEA0004ABFE;
+					};
+				};
+			};
+			buildConfigurationList = A0D5D2491A98DBEA0004ABFE /* Build configuration list for PBXProject "Vogelo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0D5D2451A98DBEA0004ABFE;
+			productRefGroup = A0D5D24F1A98DBEA0004ABFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D5D24D1A98DBEA0004ABFE /* Vogelo */,
+				A0D5D2651A98DBEA0004ABFE /* VogeloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0D5D24C1A98DBEA0004ABFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D5D25C1A98DBEA0004ABFE /* Main.storyboard in Resources */,
+				A0D5D2611A98DBEA0004ABFE /* LaunchScreen.xib in Resources */,
+				A0D5D25E1A98DBEA0004ABFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D5D2641A98DBEA0004ABFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D5D24A1A98DBEA0004ABFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D5D2591A98DBEA0004ABFE /* ViewController.swift in Sources */,
+				A0D5D2541A98DBEA0004ABFE /* AppDelegate.swift in Sources */,
+				A0D5D2571A98DBEA0004ABFE /* Vogelo.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D5D2621A98DBEA0004ABFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D5D26D1A98DBEA0004ABFE /* VogeloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D5D2681A98DBEA0004ABFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D5D24D1A98DBEA0004ABFE /* Vogelo */;
+			targetProxy = A0D5D2671A98DBEA0004ABFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0D5D25A1A98DBEA0004ABFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D5D25B1A98DBEA0004ABFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D5D25F1A98DBEA0004ABFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D5D2601A98DBEA0004ABFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0D5D26E1A98DBEA0004ABFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0D5D26F1A98DBEA0004ABFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D5D2711A98DBEA0004ABFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vogelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0D5D2721A98DBEA0004ABFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vogelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0D5D2741A98DBEA0004ABFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VogeloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vogelo.app/Vogelo";
+			};
+			name = Debug;
+		};
+		A0D5D2751A98DBEA0004ABFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VogeloTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vogelo.app/Vogelo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0D5D2491A98DBEA0004ABFE /* Build configuration list for PBXProject "Vogelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D5D26E1A98DBEA0004ABFE /* Debug */,
+				A0D5D26F1A98DBEA0004ABFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D5D2701A98DBEA0004ABFE /* Build configuration list for PBXNativeTarget "Vogelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D5D2711A98DBEA0004ABFE /* Debug */,
+				A0D5D2721A98DBEA0004ABFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0D5D2731A98DBEA0004ABFE /* Build configuration list for PBXNativeTarget "VogeloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D5D2741A98DBEA0004ABFE /* Debug */,
+				A0D5D2751A98DBEA0004ABFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0D5D2551A98DBEA0004ABFE /* Vogelo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0D5D2561A98DBEA0004ABFE /* Vogelo.xcdatamodel */,
+			);
+			currentVersion = A0D5D2561A98DBEA0004ABFE /* Vogelo.xcdatamodel */;
+			path = Vogelo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0D5D2461A98DBEA0004ABFE /* Project object */;
+}
